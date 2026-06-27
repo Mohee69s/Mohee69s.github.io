@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 99%;
+  --foreground: 240 10% 4%;
+  --muted: 240 6% 94%;
+  --muted-foreground: 240 4% 41%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 4%;
+  --border: 240 6% 88%;
+  --input: 240 6% 88%;
+  --ring: 216 92% 60%;
+  --accent: 216 92% 52%;
+  --accent-foreground: 0 0% 100%;
+  color-scheme: light;
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 96%;
+  --muted: 240 5% 12%;
+  --muted-foreground: 240 5% 64%;
+  --card: 240 8% 7%;
+  --card-foreground: 0 0% 94%;
+  --border: 240 6% 17%;
+  --input: 240 6% 17%;
+  --ring: 214 100% 68%;
+  --accent: 216 92% 60%;
+  --accent-foreground: 0 0% 100%;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}

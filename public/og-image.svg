@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#09090b"/>
+  <g opacity="0.3">
+    <path d="M0 105H1200" stroke="#27272a"/>
+    <path d="M0 210H1200" stroke="#27272a"/>
+    <path d="M0 315H1200" stroke="#27272a"/>
+    <path d="M0 420H1200" stroke="#27272a"/>
+    <path d="M0 525H1200" stroke="#27272a"/>
+    <path d="M200 0V630" stroke="#27272a"/>
+    <path d="M400 0V630" stroke="#27272a"/>
+    <path d="M600 0V630" stroke="#27272a"/>
+    <path d="M800 0V630" stroke="#27272a"/>
+    <path d="M1000 0V630" stroke="#27272a"/>
+  </g>
+  <rect x="120" y="140" width="960" height="350" rx="18" fill="#111114" stroke="#27272a"/>
+  <circle cx="170" cy="183" r="7" fill="#f87171"/>
+  <circle cx="196" cy="183" r="7" fill="#fbbf24"/>
+  <circle cx="222" cy="183" r="7" fill="#4ade80"/>
+  <text x="160" y="280" fill="#f4f4f5" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="600">Mohee — Software Engineer</text>
+  <text x="160" y="340" fill="#a1a1aa" font-family="Inter, Arial, sans-serif" font-size="30">Backend systems, Linux workflows, and reliable software architecture.</text>
+  <text x="160" y="410" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28">$ I build reliable software.</text>
+</svg>
